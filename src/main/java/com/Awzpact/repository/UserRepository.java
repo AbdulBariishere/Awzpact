@@ -16,5 +16,7 @@ public List checkusername(String username){
     List<AuthenticationRequest> list =jdbcTemplate.query(query, new BeanPropertyRowMapper<>(AuthenticationRequest.class));
     return list;
 }
+
+
 }
 

@@ -62,45 +62,6 @@ CREATE TABLE `employees` (
   `Status` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `employees`
---
-
-INSERT INTO `employees` (`Employee_id`, `Name`, `Password`, `Phone`, `Email`, `Gender`, `Status`) VALUES
-(1, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', '1'),
-(2, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'enable'),
-(3, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'enable'),
-(4, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'enable'),
-(5, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'enable'),
-(6, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'enable'),
-(7, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'enable'),
-(8, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'enable'),
-(9, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'enable'),
-(10, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'enable'),
-(11, 'abdul bari', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(12, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(13, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(14, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(15, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(16, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(17, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(18, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(19, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(20, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(21, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(22, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(23, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(24, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(25, 'kashifa', '', '8827905555', 'abdul@gmail.com', 'male', 'disable'),
-(26, 'full stack', '', '08827905555', 'abdulbariishere@gmail.com', 'Male', 'enable'),
-(27, 'admin', 'admin', NULL, NULL, NULL, NULL),
-(28, 'admin', 'admin', NULL, NULL, NULL, NULL),
-(29, 'google', 'google', '+918827905555', 'abdulbariishere@gmail.com', 'male', 'ui developer'),
-(30, 'darakhshan', 'admin', '223233232', 'ab@gmail.com', 'male', 'enable'),
-(31, 'admin', '65235', 'admin', '', 'male', 'enable'),
-(32, 'ramiz', '123456', '8827905555', 'abdul@gmail.com', 'male', 'status'),
-(33, 'ysyugu', 'jdgudhu', '8461845', 'agdd@gmail.com', 'male', ''),
-(34, 'ADKHHI', 'JDKJD', '6564841', 'ABDY@GMAIL.COM', 'MALE', '');
 
 --
 -- Indexes for dumped tables
